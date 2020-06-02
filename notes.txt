@@ -1,0 +1,16 @@
+// Rota: Endereço completo da requisição
+// Recurso: Qual entidade estamos acessando do sistema
+
+// GET: Buscar uma ou mais informações do back-end
+// POST: Criar uma nova informação no back-end
+// PUT: Atualizar uma informação no back-end
+// DELETE: Remoer uma informação do back-end
+
+// Request Param: Parâmetros que vem na própria roca que identificam um recurso
+// Query Param: Parâmetros que vem na própria rota, geralmente opcionais, para filtros, paginação, etc.
+// Request Body: Parâmetros para criaçao e atualização de informações
+
+
+// Migration = Histórico do banco de dados
+
+// 
