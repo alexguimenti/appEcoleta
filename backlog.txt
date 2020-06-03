@@ -1,0 +1,6 @@
+Backlog:
+
+- Colocar cidade por ordem alfabética
+- Tela de conclusão de cadastro
+- Formatação de número de telefone
+- Condicional para colocar um ponto no mapa
