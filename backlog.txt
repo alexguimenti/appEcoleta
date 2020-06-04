@@ -1,5 +1,7 @@
 Backlog:
 
+- Arrumar rota de listagem de pontos
+- Colocar página de listagem de pontos no web app
 - Colocar cidade por ordem alfabética
 - Tela de conclusão de cadastro
 - Formatação de número de telefone
