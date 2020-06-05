@@ -102,7 +102,7 @@ const Points = () => {
         setPoints(response.data);
       });
   }, [selectedItems]);
-
+  console.log(items)
   return (
     <>
       <View style={styles.container}>
@@ -159,7 +159,9 @@ const Points = () => {
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={{ paddingHorizontal: 20 }}
         >
+          
           {items.map((item) => (
+            
             <TouchableOpacity
               key={String(item.id)}
               style={[
