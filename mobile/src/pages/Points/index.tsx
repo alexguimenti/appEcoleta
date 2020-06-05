@@ -9,8 +9,16 @@ import { SvgUri } from "react-native-svg";
 import * as Location from "expo-location";
 import api from "../../services/api";
 
+interface Params {
+  uf: string;
+  city: string;
+}
+
 const Points = () => {
   const navigation = useNavigation();
+  const route = useRoute();
+
+  const routeParams = route.params as Params;
 
   const [items, setItems] = useState<Item[]>([]);
   const [points, setPoints] = useState<Point[]>([]);
@@ -85,15 +93,16 @@ const Points = () => {
     api
       .get("points", {
         params: {
-          city: "Sao Paulo",
-          uf: "SP",
-          item: [6],
+          city: routeParams.city,
+          uf: routeParams.uf,
+          item: selectedItems,
         },
       })
       .then((response) => {
         setPoints(response.data);
       });
-  }, []);
+      console.log(selectedItems)
+  }, [selectedItems]);
 
   return (
     <>
@@ -121,6 +130,7 @@ const Points = () => {
               }}
             >
               {points.map((point) => (
+                
                 <Marker
                   key={String(point.id)}
                   style={styles.mapMarker}
@@ -140,6 +150,7 @@ const Points = () => {
                     <Text style={styles.mapMarkerTitle}>{point.name}</Text>
                   </View>
                 </Marker>
+                
               ))}
             </MapView>
           )}
