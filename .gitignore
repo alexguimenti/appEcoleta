@@ -15,8 +15,7 @@ web-report/
 # macOS
 .DS_Store
 
-node_modules
 server/uploads/*
-server/!uploads/.gitkeep
+!server/uploads/.gitkeep
 
 *.sqlite
