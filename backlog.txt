@@ -1,9 +1,0 @@
-Backlog:
-
-- Arrumar rota de listagem de pontos
-- Fazer listagem do IBGE no app mobile (react-native-picker-selct)
-- Colocar página de listagem de pontos no web app
-- Colocar cidade por ordem alfabética
-- Tela de conclusão de cadastro
-- Formatação de número de telefone
-- Condicional para colocar um ponto no mapa
