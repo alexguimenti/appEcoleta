@@ -101,7 +101,6 @@ const Points = () => {
       .then((response) => {
         setPoints(response.data);
       });
-      console.log(selectedItems)
   }, [selectedItems]);
 
   return (
@@ -130,7 +129,6 @@ const Points = () => {
               }}
             >
               {points.map((point) => (
-                
                 <Marker
                   key={String(point.id)}
                   style={styles.mapMarker}
@@ -150,7 +148,6 @@ const Points = () => {
                     <Text style={styles.mapMarkerTitle}>{point.name}</Text>
                   </View>
                 </Marker>
-                
               ))}
             </MapView>
           )}
