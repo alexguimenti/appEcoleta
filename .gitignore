@@ -15,7 +15,9 @@ web-report/
 # macOS
 .DS_Store
 
-server/uploads/*
 !server/uploads/.gitkeep
+!server/uploads/baterias.svg
+!server/uploads/eletronicos.svg
+server/uploads/*
 
 *.sqlite

@@ -10,26 +10,39 @@ class PointsController {
       .split(",")
       .map((item) => Number(item.trim()));
 
-    if (city && uf && items) {
-      const points = await knex("points")
-        .join("point_items", "points.id", "=", "point_items.point_id")
-        .whereIn("point_items.item_id", parsedItems)
-        .where("city", String(city))
-        .where("uf", String(uf))
-        .distinct()
-        .select("points.*");
+      if (items && !city && !uf) {
+        const points = await knex("points")
+      .join("point_items", "points.id", "=", "point_items.point_id")
+      .whereIn("point_items.item_id", parsedItems)
+      .distinct()
+      .select("points.*");
 
-      const serializedPoints = points.map((point) => {
-        return {
-          ...point,
-          image_url: `http://192.168.246.149:3333/uploads/${point.image}`,
-        };
-      });
+    const serializedPoints = points.map((point) => {
+      return {
+        ...point,
+        image_url: `http://172.18.244.63/uploads/${point.image}`,
+      };
+    });
 
-      return response.json(serializedPoints);
-    }
-    const points = await knex("points").select("points.*");
-    return response.json(points);
+    return response.json(serializedPoints);
+      }
+
+    const points = await knex("points")
+      .join("point_items", "points.id", "=", "point_items.point_id")
+      .whereIn("point_items.item_id", parsedItems)
+      .where("city", String(city))
+      .where("uf", String(uf))
+      .distinct()
+      .select("points.*");
+
+    const serializedPoints = points.map((point) => {
+      return {
+        ...point,
+        image_url: `http://172.18.244.63/uploads/${point.image}`,
+      };
+    });
+
+    return response.json(serializedPoints);
   }
 
   async show(request: Request, response: Response) {
@@ -43,7 +56,7 @@ class PointsController {
 
     const serializedPoint = {
       ...point,
-      image_url: `http://192.168.246.149:3333/uploads/${point.image}`,
+      image_url: `http://172.18.244.63:3333/uploads/${point.image}`,
     };
 
     /**

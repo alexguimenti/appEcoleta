@@ -205,7 +205,8 @@ const styles = StyleSheet.create({
   mapContainer: {
     flex: 1,
     width: "100%",
-    borderRadius: 10,
+    height: "10%",
+    borderRadius: 20,
     overflow: "hidden",
     marginTop: 16,
   },
