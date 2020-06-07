@@ -6,7 +6,7 @@
 Ecoleta
 </h1>
 
-<p align="center">An application to unite people who need to dispose of waste and places that collect them.</p>
+<p align="center">An application to match people who need to dispose of waste with places that collect them.</p>
 <p align="center">This project was due during the Next Level Week given by Rockeseat (rocketseat.com.br).</p>
 
 
