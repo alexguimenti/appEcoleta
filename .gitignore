@@ -18,6 +18,6 @@ web-report/
 !server/uploads/.gitkeep
 !server/uploads/baterias.svg
 !server/uploads/eletronicos.svg
-server/uploads/*
+!server/uploads/lampadas.svg
 
 *.sqlite
