@@ -26,7 +26,7 @@ This app features all the latest tools and practices in web and mobile developme
 
 2. Move yourself to the appropriate directory: ```cd appEcoleta```
 
-3. Run ```npm install``` on each of those folders: 'mobile', 'server' and 'web'.
+3. Run ```npm install``` on each of those folders: 'mobile', 'server' and 'web' to install all dependencies.
 
 4. To build the databases move to the directory 'server' and run those commands: ```npm run knex:migrate``` & ```npm run knex:seed```
 
