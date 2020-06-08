@@ -9,24 +9,10 @@ Ecoleta
 <p align="center">An application to match people who need to dispose of waste with places that collect them.</p>
 <p align="center">This project was due during the Next Level Week given by Rockeseat (rocketseat.com.br).</p>
 
-
 [//]: # "Add your gifs/images here:"
 
-<style>
-div {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align:center;
-}
 
-img {
-  margin: 30px;
-}
-</style>
-
-<div >
+<div>
 <img  src="https://s7.gifyu.com/images/ezgif.com-video-to-gif62be27928cfd2b59.gif" alt="demo" height="200">
   <img src="https://s7.gifyu.com/images/ezgif.com-video-to-gif-1549eb41e78582786.gif" alt="web_demo" height="200">
 </div>
