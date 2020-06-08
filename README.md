@@ -6,7 +6,7 @@
 Ecoleta
 </h1>
 
-<p align="center">An application to unite people who need to dispose of waste and places that collect them.</p>
+<p align="center">An application to match people who need to dispose of waste with places that collect them.</p>
 <p align="center">This project was due during the Next Level Week given by Rockeseat (rocketseat.com.br).</p>
 
 [//]: # "Add your gifs/images here:"
@@ -14,8 +14,8 @@ Ecoleta
 
 
 <div align="center">
-<img  src="https://s7.gifyu.com/images/ezgif.com-video-to-gif62be27928cfd2b59.gif" alt="demo" height="200">
-<img src="https://s7.gifyu.com/images/ezgif.com-video-to-gif-1549eb41e78582786.gif" alt="web_demo" height="200">
+<img  src="https://s7.gifyu.com/images/ezgif.com-video-to-gif62be27928cfd2b59.gif" alt="demo" height="280">
+<img src="https://s7.gifyu.com/images/ezgif.com-video-to-gif-1549eb41e78582786.gif" alt="web_demo" height="280">
 </div>
 <hr />
 
