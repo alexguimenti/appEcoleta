@@ -6,8 +6,9 @@
 Ecoleta
 </h1>
 
+
 <p align="center">An application to match people who need to dispose of waste with places that collect them.</p>
-<p align="center">This project was due during the Next Level Week given by Rockeseat (rocketseat.com.br).</p>
+<p align="center">This project was due during the Next Level Week given by [Rockeseat](https://rocketseat.com.br/).</p>
 
 [//]: # "Add your gifs/images here:"
 
@@ -41,7 +42,7 @@ This app features all the latest tools and practices in web and mobile developme
 
 1. To build the databases move to the directory 'server' and run those commands: `npm run knex:migrate` & `npm run knex:seed`
 2. Change the IP adress at `mobile/src/services/api.ts`, `server/src/controllers/ItemsControllers.ts` and `server/src/controllers/PointsControllers.ts` for the IP from your machine.
-3. To start the server move to the folder 'server' and run `npm run dev` and keep it running on the background. It should run at 'http://localhost:3333/'.
+3. To start the server move to the folder 'server' and run `npm run dev` and keep it running on the background. It should run at `http://localhost:3333/`.
 
 ### Getting started with the web app
 
