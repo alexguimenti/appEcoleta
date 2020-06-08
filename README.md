@@ -8,7 +8,7 @@ Ecoleta
 
 
 <p align="center">An application to match people who need to dispose of waste with places that collect them.</p>
-<p align="center">This project was due during the Next Level Week given by [Rockeseat](https://rocketseat.com.br/).</p>
+<p align="center">This project was due during the Next Level Week given by Rockeseat (https://rocketseat.com.br/).</p>
 
 [//]: # "Add your gifs/images here:"
 
