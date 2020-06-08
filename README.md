@@ -12,9 +12,9 @@ Ecoleta
 [//]: # "Add your gifs/images here:"
 
 
-<div tyle="text-align:center">
+<div align="center">
 <img  src="https://s7.gifyu.com/images/ezgif.com-video-to-gif62be27928cfd2b59.gif" alt="demo" height="200">
-  <img src="https://s7.gifyu.com/images/ezgif.com-video-to-gif-1549eb41e78582786.gif" alt="web_demo" height="200">
+<img src="https://s7.gifyu.com/images/ezgif.com-video-to-gif-1549eb41e78582786.gif" alt="web_demo" height="200">
 </div>
 
 <hr />
